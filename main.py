@@ -79,7 +79,7 @@ def quad():
 
 
 root = tk.Tk()
-root.title("Calculator")
+root.title("Calculator by Adam 2024")
 entry_variable = tk.StringVar()
 entry = tk.Entry(root, font=("Arial", 15), textvariable=entry_variable)
 entry.grid(row=0, column=0, columnspan=4, sticky='nswe')
@@ -101,7 +101,7 @@ calcBtn = tk.Button(root, text='=', font=('Arial', 15), command=calc)
 calcBtn.grid(row=5, column=1, sticky='nswe')
 quadBtn = tk.Button(root, text='Q', font=('Arial', 15), command=quad)
 quadBtn.grid(row=5, column=2, sticky='nswe')
-sqrtBtn = tk.Button(root, text='S', font=('Arial', 15), command=sqrt)
+sqrtBtn = tk.Button(root, text='√', font=('Arial', 15), command=sqrt)
 sqrtBtn.grid(row=4, column=3, sticky='nswe')
 killBtn = tk.Button(root, text='🚫', font=("Arial", 15), command=lambda:kill(root))
 killBtn.grid(row=5,column=3,sticky='nswe')
